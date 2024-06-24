@@ -1,60 +1,49 @@
-# Questions for Day 2 - (22/06/2024)
+# Questions for Day 4 - (24/06/2024)
 
 ## DSA
 
-
-#### Question 1: A professor has a class of students and wants to know if the class should be cancelled based on student arrival times. The class is cancelled if fewer than a threshold number of students arrive on time.
+**Question 1:** Given a string, determine the number of distinct palindromic substrings of a 
+specified length.
 ##### Inputs:
-- An integer representing the threshold number of students.
-- An array of integers representing arrival times, where a non-positive integer indicates on-time arrival.
-Output:
-- YES" if the class is cancelled, "NO" otherwise.
+- A string.
+- An integer representing the length of the substrings.
+##### Output:
+- The number of distinct palindromic substrings.
+##### Example:
+string = "ababa"
+
+length = 3
+##### Output: 3
+
+**Question 2:** Determine if a string can be rearranged such that 
+all characters have the same frequency. If one removal can achieve this, return "valid", 
+otherwise return "invalid".
+
+##### Inputs:
+- A string.
+##### Output:
+- "valid" if the string meets the criteria, otherwise "invalid".
 ##### Example:
 
-threshold = 3
+string = "aabbcc"
 
-arrival_times = [-1, -3, 4, 2]
+##### Output: valid
 
-Output: YES
+## WEB-DEV:
 
-##### Question 2: A player is climbing a leaderboard where scores are ranked in descending order. Given the scores on the leaderboard and the player's scores in the game, determine the player's rank after each new score.
-Inputs:
-- An array of integers representing the leaderboard scores.
--	An array of integers representing the player's scores.
-Output:
--	An array of integers representing the player's rank after each new score.
+1. Try recreating this image using display element (the logo of google is provided in the 
+repo).
 
-Example:
+    ![image](https://github.com/upesacm/21DaysOfCode-2024/assets/133881515/ad6abc92-5bba-4c4a-b342-e3431ac31d7a)
 
-leaderboard = [100, 90, 90, 80]
 
-player_scores = [70, 80, 105]
+2. Try recreating this image using display inline and block element.
 
-Output: [4, 3, 1]
+    ![image](https://github.com/upesacm/21DaysOfCode-2024/assets/133881515/6d2c5efa-83de-4c70-9549-44f744da740b)
 
-## WebDev
 
-1.	Replicate this button.
+3. Create a grid with 4 equal columns that take up the entire page. Space between columns 
+= 20px, space between rows = 10p
 
-       ![image](https://github.com/upesacm/21DaysOfCode-2024/assets/133881515/d6aa23a2-72da-4c53-a619-961605fbdebd)
+    ![image](https://github.com/upesacm/21DaysOfCode-2024/assets/133881515/51c9a75c-7a52-4b65-8749-f74c32ce5015)
 
-2.	Replicate this below button rgb(255,216,20).
-
-      ![image](https://github.com/upesacm/21DaysOfCode-2024/assets/133881515/7552d8fa-cbb2-49c7-964b-1a1a1cd6aca9)
-
- 
-3.	Replicate this button rgb(10,102,194).
-
-      ![image](https://github.com/upesacm/21DaysOfCode-2024/assets/133881515/df5edecf-cc2a-4065-840a-8e1bcba6a45d)
-
- 
-4.	Replicate this button rgb(121,82,179) and rgb(108,117,125).
-
-  	 ![image](https://github.com/upesacm/21DaysOfCode-2024/assets/133881515/ebee73a2-ee72-4034-aa80-d81f3ed5cb5e)
-
- 
-6.	Using the code made for the previous day for question 5 try to enhance it with this style.
-
-	![image](https://github.com/upesacm/21DaysOfCode-2024/assets/133881515/dbc4f87a-b841-4a9c-8ddf-fafe174eb247)
-
- 
